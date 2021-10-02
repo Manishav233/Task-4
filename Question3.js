@@ -8,3 +8,5 @@ var flag=data.forEach(element=> {
 console.log("Name: "+element.name+" , Region: "+element.region+" , Subregion: " +element.subregion +" , Population: "+element.population);
 });
 };
+
+
