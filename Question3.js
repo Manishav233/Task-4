@@ -5,6 +5,6 @@ request.onload=function(){
 var data=JSON.parse(this.response);
 console.log(data);
 var flag=data.forEach(element=> {
-console.log(element.flag);
+console.log("Name: "+element.name+" , Region: "+element.region+" , Subregion: " +element.subregion +" , Population: "+element.population);
 });
 };
